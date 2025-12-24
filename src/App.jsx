@@ -12,6 +12,7 @@ export default function App() {
   return (
     <React.Fragment>
       <Header />
+      <Blog/>
       <Routes>
         <Route path='/' element={<Home/> } />
         <Route path='/about' element={<About/> } />
