@@ -4,6 +4,9 @@ import React from 'react'
 import ImageOne from '/SobirjonovImageOne.png'
 // Icons
 import { FaPlay } from "react-icons/fa";
+// Components
+import ButtonStyleOne from '../components/ButtonStyleOne';
+
 // Sobirjonov
 export default function Home() {
   return (
@@ -19,7 +22,7 @@ export default function Home() {
                   </div>
                   <h1 className='text-7xl font-bold'>Enjoy studying with Createx Online Courses</h1>
                   <div className="flex">
-                    
+                    <ButtonStyleOne text={'About Me'}/>
                   </div>
                 </div>
                 <img src={ImageOne} alt="" />
