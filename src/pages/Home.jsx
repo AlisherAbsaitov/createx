@@ -49,7 +49,7 @@ export default function Home() {
         {/* Why createx */}
         <section className='py-50'>
           <div className="container mx-auto px-20">
-            <div className="flex justify-between">
+            <div className="flex gap-30 justify-between">
               <img src={ImageTwo} alt="image"/>
               <div className="flex gap-10 flex-col w-110">
                 <p className='font-semibold'>WHO ARE WE</p>
@@ -64,6 +64,16 @@ export default function Home() {
                 </ul>
                 <ButtonStyleOne text={'More about us'}/>
               </div>
+            </div>
+          </div>
+        </section>
+        {/* Ready to learn */}
+        <section>
+          <div className="container mx-auto px-20">
+            <p className='font-semibold'>READY TO LEARN?</p>
+            <div className="flex justify-between">
+                <h1 className='font-bold text-6xl'>Featured Courses</h1>
+                <ButtonStyleOne text={'View all courses'}/>
             </div>
           </div>
         </section>
