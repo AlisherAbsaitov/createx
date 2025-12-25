@@ -5,67 +5,70 @@ import img3 from "../assets/Subscribe.png";
 
 export default function Blog() {
   const blog = [
-    { 
-      id: 1,
-      type: "Podcast",
-      img: img1,
-      category: "Marketing",
-      date: "September 4, 2020",
-      duration: "36 min",
-      title: "What is traffic arbitrage and does it really make money?",
-      description: "Phasellus ullamcorper lacus vitae porttitor ...",
-      action: "Listen",
-      color: "bg-blue-200",
-    },
-    {
-      id: 2,
-      type: "Article",
-      img: img1,
-      category: "Development",
-      date: "September 1, 2020",
-      title: "How to choose the first programming language for a beginner",
-      description: "Turpis sed at magna laoreet gravida ...",
-      action: "Read",
-      color: "bg-gray-100",
-    },
-    {
-      id: 3,
-      type: "Video",
-      img: img1,
-      category: "Design",
-      date: "August 8, 2020",
-      duration: "40 min",
-      title: "Should you choose a creative profession if you are attracted to creativity?",
-      description: "Curabitur nisl tincidunt ...",
-      action: "Watch",
-      color: "bg-yellow-100",
-    },
-    {
-      id: 4,
-      type: "Video",
-      img: img2,
-      category: "Design",
-      date: "August 8, 2020",
-      duration: "40 min",
-      title: "Should you Should you choose a creative profession if you are attracted to creativity? a creative profession if you are attracted to creativity?",
-      description: "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium... nisl tincidunt ...",
-      action: "Watch",
-      color: "bg-yellow-100",
-    },
-    {
-      id: 5,
-      type: "Video",
-      img: img1,
-      category: "Design",
-      date: "August 8, 2020",
-      duration: "40 min",
-      title: "Should you choose a creative profession if you are attracted to creativity?",
-      description: "Curabitur nisl tincidunt ...",
-      action: "Watch",
-      color: "bg-yellow-100",
-    },
-    
-  ];
+		{
+			id: 1,
+			type: 'Podcast',
+			img: img1,
+			category: 'Marketing',
+			date: 'September 4, 2020',
+			duration: '36 min',
+			title: 'What is traffic arbitrage and does it really make money?',
+			description: 'Phasellus ullamcorper lacus vitae porttitor ...',
+			action: 'Listen',
+			color: 'bg-blue-200',
+		},
+		{
+			id: 2,
+			type: 'Article',
+			img: img1,
+			category: 'Development',
+			date: 'September 1, 2020',
+			title: 'How to choose the first programming language for a beginner',
+			description: 'Turpis sed at magna laoreet gravida ...',
+			action: 'Read',
+			color: 'bg-gray-100',
+		},
+		{
+			id: 3,
+			type: 'Video',
+			img: img1,
+			category: 'Design',
+			date: 'August 8, 2020',
+			duration: '40 min',
+			title:
+				'Should you choose a creative profession if you are attracted to creativity?',
+			description: 'Curabitur nisl tincidunt ...',
+			action: 'Watch',
+			color: 'bg-yellow-100',
+		},
+		{
+			id: 4,
+			type: 'Video',
+			img: img2,
+			category: 'Design',
+			date: 'August 8, 2020',
+			duration: '40 min',
+			title:
+				'Should you Should you choose a creative profession if you are attracted to creativity? a creative profession if you are attracted to creativity?',
+			description:
+				'Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium... nisl tincidunt ...',
+			action: 'Watch',
+			color: 'bg-yellow-100',
+		},
+		{
+			id: 5,
+			type: 'Video',
+			img: img1,
+			category: 'Design',
+			date: 'August 8, 2020',
+			duration: '40 min',
+			title:
+				'Should you choose a What to do and who to talk to if you want to get feedback on the product profession if you are attracted to creativity?',
+			description: 'Curabitur nisl tincidunt ...',
+			action: 'Watch',
+			color: 'bg-yellow-100',
+		},
+	]
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
@@ -74,7 +77,7 @@ export default function Blog() {
       </h2>
       <p className="text-center mb-8 text-gray-500">OUR BLOG</p>
 
-      {/* Blog cards */}
+     
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {blog.map((post) => (
           <div
@@ -116,7 +119,7 @@ export default function Blog() {
         ))}
       </div>
 
-      {/* Pagination */}
+     
       <div className="flex justify-center mt-10 space-x-2 text-gray-500">
         <button className="px-3 py-1 rounded hover:bg-gray-200">1</button>
         <button className="px-3 py-1 rounded hover:bg-gray-200">2</button>
