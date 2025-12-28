@@ -71,9 +71,12 @@ export default function Home() {
         <section>
           <div className="container mx-auto px-20">
             <p className='font-semibold'>READY TO LEARN?</p>
-            <div className="flex justify-between">
+            <div className="flex justify-between pb-15">
                 <h1 className='font-bold text-6xl'>Featured Courses</h1>
                 <ButtonStyleOne text={'View all courses'}/>
+            </div>
+            <div className="grid grid-cols-2 grid-rows-9 gap-4">
+              
             </div>
           </div>
         </section>
